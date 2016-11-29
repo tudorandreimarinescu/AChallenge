@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		758BD0DC1DECA97100E6D280 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758BD0DB1DECA97100E6D280 /* Reachability.swift */; };
+		758BD0DF1DECA98C00E6D280 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758BD0DE1DECA98C00E6D280 /* SystemConfiguration.framework */; };
+		758BD0E11DECAEF900E6D280 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758BD0E01DECAEF900E6D280 /* DataService.swift */; };
 		75DDD1271DEC59EC0046B400 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDD1261DEC59EC0046B400 /* AppDelegate.swift */; };
-		75DDD1291DEC59EC0046B400 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDD1281DEC59EC0046B400 /* ViewController.swift */; };
 		75DDD12C1DEC59EC0046B400 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DDD12A1DEC59EC0046B400 /* Main.storyboard */; };
 		75DDD12E1DEC59EC0046B400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75DDD12D1DEC59EC0046B400 /* Assets.xcassets */; };
 		75DDD1311DEC59EC0046B400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DDD12F1DEC59EC0046B400 /* LaunchScreen.storyboard */; };
 		75DDD13C1DEC59EC0046B400 /* AChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDD13B1DEC59EC0046B400 /* AChallengeTests.swift */; };
 		75DDD1471DEC59EC0046B400 /* AChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDD1461DEC59EC0046B400 /* AChallengeUITests.swift */; };
+		75DDD1591DEC5E3F0046B400 /* ManufacturerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDD1581DEC5E3F0046B400 /* ManufacturerViewController.swift */; };
+		75DDD15B1DEC5E550046B400 /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDD15A1DEC5E550046B400 /* ModelViewController.swift */; };
+		75DDD15D1DEC5E6C0046B400 /* YearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DDD15C1DEC5E6C0046B400 /* YearViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		758BD0DB1DECA97100E6D280 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		758BD0DE1DECA98C00E6D280 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		758BD0E01DECAEF900E6D280 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		75DDD1231DEC59EC0046B400 /* AChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DDD1261DEC59EC0046B400 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75DDD1281DEC59EC0046B400 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75DDD12B1DEC59EC0046B400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75DDD12D1DEC59EC0046B400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75DDD1301DEC59EC0046B400 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,9 @@
 		75DDD1421DEC59EC0046B400 /* AChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DDD1461DEC59EC0046B400 /* AChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AChallengeUITests.swift; sourceTree = "<group>"; };
 		75DDD1481DEC59EC0046B400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75DDD1581DEC5E3F0046B400 /* ManufacturerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManufacturerViewController.swift; sourceTree = "<group>"; };
+		75DDD15A1DEC5E550046B400 /* ModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
+		75DDD15C1DEC5E6C0046B400 /* YearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YearViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				758BD0DF1DECA98C00E6D280 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		758BD0D81DEC960100E6D280 /* ManufacturerVC */ = {
+			isa = PBXGroup;
+			children = (
+				75DDD1581DEC5E3F0046B400 /* ManufacturerViewController.swift */,
+			);
+			name = ManufacturerVC;
+			sourceTree = "<group>";
+		};
+		758BD0D91DEC961000E6D280 /* ModelVC */ = {
+			isa = PBXGroup;
+			children = (
+				75DDD15A1DEC5E550046B400 /* ModelViewController.swift */,
+			);
+			name = ModelVC;
+			sourceTree = "<group>";
+		};
+		758BD0DA1DEC961800E6D280 /* YearVC */ = {
+			isa = PBXGroup;
+			children = (
+				75DDD15C1DEC5E6C0046B400 /* YearViewController.swift */,
+			);
+			name = YearVC;
+			sourceTree = "<group>";
+		};
+		758BD0DD1DECA98C00E6D280 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				758BD0DE1DECA98C00E6D280 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		75DDD11A1DEC59EC0046B400 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +124,7 @@
 				75DDD13A1DEC59EC0046B400 /* AChallengeTests */,
 				75DDD1451DEC59EC0046B400 /* AChallengeUITests */,
 				75DDD1241DEC59EC0046B400 /* Products */,
+				758BD0DD1DECA98C00E6D280 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +142,11 @@
 			isa = PBXGroup;
 			children = (
 				75DDD1261DEC59EC0046B400 /* AppDelegate.swift */,
-				75DDD1281DEC59EC0046B400 /* ViewController.swift */,
-				75DDD12A1DEC59EC0046B400 /* Main.storyboard */,
-				75DDD12D1DEC59EC0046B400 /* Assets.xcassets */,
-				75DDD12F1DEC59EC0046B400 /* LaunchScreen.storyboard */,
-				75DDD1321DEC59EC0046B400 /* Info.plist */,
+				75DDD1571DEC5E0E0046B400 /* Utilities */,
+				75DF9D771DED84B60017C324 /* Model */,
+				75DDD1561DEC5E020046B400 /* ViewControllers */,
+				75DDD1551DEC5DFA0046B400 /* UI */,
+				75DDD1541DEC5DDF0046B400 /* Support */,
 			);
 			path = AChallenge;
 			sourceTree = "<group>";
@@ -123,6 +167,50 @@
 				75DDD1481DEC59EC0046B400 /* Info.plist */,
 			);
 			path = AChallengeUITests;
+			sourceTree = "<group>";
+		};
+		75DDD1541DEC5DDF0046B400 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				75DDD12D1DEC59EC0046B400 /* Assets.xcassets */,
+				75DDD1321DEC59EC0046B400 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		75DDD1551DEC5DFA0046B400 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				75DDD12A1DEC59EC0046B400 /* Main.storyboard */,
+				75DDD12F1DEC59EC0046B400 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		75DDD1561DEC5E020046B400 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				758BD0D81DEC960100E6D280 /* ManufacturerVC */,
+				758BD0D91DEC961000E6D280 /* ModelVC */,
+				758BD0DA1DEC961800E6D280 /* YearVC */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		75DDD1571DEC5E0E0046B400 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				758BD0DB1DECA97100E6D280 /* Reachability.swift */,
+				758BD0E01DECAEF900E6D280 /* DataService.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		75DF9D771DED84B60017C324 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +350,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75DDD1291DEC59EC0046B400 /* ViewController.swift in Sources */,
+				75DDD1591DEC5E3F0046B400 /* ManufacturerViewController.swift in Sources */,
 				75DDD1271DEC59EC0046B400 /* AppDelegate.swift in Sources */,
+				75DDD15B1DEC5E550046B400 /* ModelViewController.swift in Sources */,
+				758BD0E11DECAEF900E6D280 /* DataService.swift in Sources */,
+				758BD0DC1DECA97100E6D280 /* Reachability.swift in Sources */,
+				75DDD15D1DEC5E6C0046B400 /* YearViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +606,7 @@
 				75DDD14D1DEC59EC0046B400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75DDD14E1DEC59EC0046B400 /* Build configuration list for PBXNativeTarget "AChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +615,7 @@
 				75DDD1501DEC59EC0046B400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75DDD1511DEC59EC0046B400 /* Build configuration list for PBXNativeTarget "AChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +624,7 @@
 				75DDD1531DEC59EC0046B400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
